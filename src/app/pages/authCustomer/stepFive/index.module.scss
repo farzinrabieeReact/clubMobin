@@ -1,0 +1,97 @@
+.stepFive-Parent {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stepFive-main {
+  width: 581px;
+  height: 459px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 0px 86px 0px rgba(0, 0, 0, 0.13);
+}
+.stepFive-box_green {
+  width: 95%;
+  height: 190px;
+  background-color: hsla(150, 56%, 44%, 0.116);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #31af70;
+  font-size: 16px;
+}
+.stepFive-box_blue {
+  width: 95%;
+  height: 125px;
+  background-color: hsla(208, 100%, 56%, 0.11);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2198ff;
+  text-align: center;
+  font-size: 16px;
+  padding: 0 25px;
+  position: relative;
+}
+.stepFive-footer-button-active {
+  width: 245px !important;
+  height: 50px !important;
+  background-color: #ef6d22 !important;
+  border-radius: 5px !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  &:hover {
+    color: #ffffff !important;
+    background-color: #e25605 !important;
+  }
+}
+@media (min-width: 310px) and (max-width: 767px) {
+  .stepFive-main {
+    width: 350px;
+    height: 450px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 0px 86px 0px rgba(0, 0, 0, 0.13);
+  }
+  .stepFive-box_green {
+    width: 95%;
+    height: 60%;
+    font-size: 14px;
+  }
+  .stepFive-box_blue {
+    width: 95%;
+    height: 40%;
+    padding: 20px 20px;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+  }
+  .stepFive-footer-button-active {
+    width: 140px !important;
+    height: 45px;
+    font-size: 14px !important;
+  }
+}
+// @media (min-width: 768px) and (max-width: 1200px) {
+
+//   .stepFive-footer-button-active {
+//     width: 200px !important;
+//     height: 40px;
+//     font-size: 14px !important;
+//   }
+// }

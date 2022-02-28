@@ -1,0 +1,119 @@
+
+.swipercontainer {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+
+.sliderHeight{
+
+}
+.sliderHei{
+max-height: 350px;
+}
+
+.swiperslide {
+  text-align: center;
+  font-size: 15px;
+  background: #fff;
+  border-radius: 15px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.swiperslide a{
+  border-radius: 15px;
+  width: inherit;
+  height: inherit;
+  display: inline-block;
+}
+
+.swiperslide img {
+  display: block;
+  width: 100%;
+
+  /* width: 940px; */
+  /* height: 480px; */
+  /*height: 100%;*/
+  /* border-radius: 15px; */
+
+   object-fit: cover;
+}
+@media screen and (min-width: 300px) and (max-width : 500px){
+  .swipercontainer {
+    width: 100%;
+    height: auto;
+  }
+  .sliderHei{
+    max-height: 150px !important;
+  }
+}
+@media screen and (min-width: 501px) and (max-width : 567px){
+  .swipercontainer {
+    width: 100%;
+    height: auto;
+  }
+ .sliderHei{
+   max-height: 200px !important;
+ }
+}
+
+@media screen and (min-width: 568px) and (max-width : 767px){
+  .swipercontainer {
+    width: 100%;
+    height: auto;
+  }
+  .sliderHei{
+    max-height: 250px !important;
+  }
+}
+@media screen and (min-width : 768px) and (max-width : 991px){
+  .swipercontainer {
+    width: 100%;
+    height: auto;
+  }
+  .sliderHei{
+    max-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and  (max-width : 1199px) {
+  .swipercontainer {
+    width: 100%;
+    height: auto;
+  }
+  .sliderHei{
+    max-height: 270px !important;
+  }
+
+
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .sliderHei{
+    max-height: 320px !important;
+  }
+
+
+}
+@media screen and (min-width: 1501px) and (max-width: 1800px) {
+  .sliderHei{
+    max-height: 320px !important;
+  }
+
+
+}
+
+
+

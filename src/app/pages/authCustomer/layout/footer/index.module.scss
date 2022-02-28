@@ -1,0 +1,36 @@
+.footer {
+  background-color: transparent;
+  width: 100%;
+  height: 11.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // position: absolute;
+  // bottom: 0;
+}
+.footer-content-parent {
+  height: 100%;
+  background-color: transparent;
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.footer-li {
+  color: #929292;
+  font-size: 12px;
+  padding: 1px 15px;
+  position: relative;
+}
+
+.footer-li:nth-child(1)::after,.footer-li:nth-child(2)::after {
+  content: "";
+  width: 0.5px;
+  height: 11px;
+  background-color: #929292;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}

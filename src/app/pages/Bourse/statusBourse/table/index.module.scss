@@ -1,0 +1,137 @@
+.table {
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  thead {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    tr {
+      width: 100%;
+      display: block;
+      height: 56px;
+      // border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   
+      
+      th {
+          font-size: 22px;
+          font-weight: 700;
+          text-align: center;
+           display: block;
+           width: 20%;
+        // &:nth-child(1) {
+        //     width: 60px;
+        // }
+        // &:nth-child(2) {
+        //     width: 150px;
+        // }
+        // &:nth-child(3) {
+        //     width: 200px;
+        // }
+        // &:nth-child(4) {
+        //     width: 200px;
+        // }
+        // &:nth-child(5) {
+        //     width: 200px;
+        // }
+      }
+    }
+  }
+  tbody {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+
+    tr {
+      width: 100%;
+      display: block;
+      height: 56px;
+      // border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      td {
+          text-align: center;
+        display: block;
+        width: 20%;
+        // &:nth-child(1) {
+        //     width: 60px;
+        // }
+        // &:nth-child(2) {
+        //     width: 150px;
+        // }
+        // &:nth-child(3) {
+        //     width: 200px;
+        // }
+        // &:nth-child(4) {
+        //     width: 200px;
+        // }
+        // &:nth-child(5) {
+        //     width: 200px;
+        // }
+      }
+      // &:nth-child(odd) {
+      //   background-color: #f0f0f0;
+      // }
+    }
+  }
+}
+.root{
+  width: 100%;
+  position: relative;
+}
+
+
+.accordian{
+  background-color:  #ff961e;
+  box-shadow: rgba(0, 0, 0, 0.089) 0px 2px 4px, rgba(0, 0, 0, 0.055) 0px 7px 13px -3px, rgba(0, 0, 0, 0.055) 0px -3px 0px inset;
+  border-radius: 5px;
+  color: #f2f2f2;
+
+}
+
+.btnBack{
+  width: 90px;
+  height: 23px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  border:1px solid rgb(186, 1, 1);
+  color: rgb(186, 1, 1);
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  &:hover{
+    background-color: rgb(186, 1, 1);
+    color: #f2f2f2;
+    cursor: pointer;
+  }
+}
+.btnBackDisabled{
+  width: 90px;
+  height: 23px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  border:1px solid gray;
+  color: gray;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+}
+
+
+@media (max-width: 768px){
+  .table {
+    width: 200% !important;
+   
+  
+  }
+}

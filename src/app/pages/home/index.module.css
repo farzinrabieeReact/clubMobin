@@ -1,0 +1,212 @@
+.gift {
+    width: 100%;
+    min-height: 294px;
+    background: linear-gradient(-90deg, rgba(114,173,241,1) 0%, rgba(147,218,222,1) 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    max-width: 212px;
+   width: 212px;
+   height: 256px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden !important;
+}
+.pos{
+    position: absolute;
+
+
+    bottom: -62px;
+    left: 0;
+}
+.backCardBanafsh{
+    height: 355px;
+    background: rgb(157,106,225);
+    background: linear-gradient(90deg, rgba(157,106,225,1) 0%, rgba(102,14,255,1) 100%);
+
+}
+.backCardsoorati{
+
+    height: 173px;
+    background: rgb(255,86,102);
+    background: linear-gradient(90deg, rgba(255,86,102,1) 0%, rgba(249,45,142,1) 100%);
+}
+.backCardAabi{
+    height: 173px;
+    background: rgb(0,220,255);
+    background: linear-gradient(90deg, rgba(0,220,255,1) 0%, rgba(0,140,203,1) 100%);
+}
+.backCardSabz{
+    background: rgb(87,172,2);
+    background: linear-gradient(-90deg, rgba(87,172,2,1) 0%, rgba(170,203,0,1) 100%);
+}
+.backCardSabzAbi{
+    background: rgb(0,203,155);
+    background: linear-gradient(-90deg, rgba(0,203,155,1) 0%, rgba(0,235,203,1) 100%);
+}
+.backCardNarenji{
+    background: rgb(255,138,85);
+    background: linear-gradient(-90deg, rgba(255,138,85,1) 0%, rgba(255,204,0,1) 100%);
+}
+.backCardghermez{
+    background: rgb(226,46,58);
+    background: linear-gradient(-90deg, rgba(226,46,58,1) 0%, rgba(255,78,96,1) 100%);
+}
+.textSlider{
+white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.redCard:hover{
+    border: 1px solid red !important;
+
+    outline: 0;
+
+  background: rgba(246, 10, 10, 0.04);
+}
+.aquaCard:hover{
+    border: 1px solid blue !important;
+
+    outline: 0;
+
+    background: rgba(44, 83, 153, 0.04);
+
+}
+.banafshCard:hover{
+    border: 1px solid #ad00ad !important;
+
+    outline: 0;
+
+    background: rgba(128, 0, 128, 0.04);
+
+}
+.abiCard:hover{
+    border: 1px solid aqua !important;
+
+    outline: 0;
+
+    background: rgba(0, 255, 255, 0.04);
+
+}
+.slider{
+    width: 100%;
+
+
+
+}
+.giftBtn{
+    width: 100%;
+
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.giftBtn:hover{
+    color: white;
+}
+.heightPost{
+min-height: 98%;
+}
+.text-font{
+    font-size: 17px;
+}
+@media screen and (min-width: 300px) and (max-width: 768px){
+
+.backCardBanafsh{
+    height: 150px;
+}
+    .backCardsoorati{
+        height: 130px;
+    }
+    .backCardAabi{
+        height: 130px;
+    }
+    .backCardSabz{
+        height: 120px;
+    }
+    .backCardSabzAbi{
+        height: 120px;
+    }
+    .backCardNarenji{
+        height: 120px;
+    }
+    .backCardghermez{
+        height: 120px;
+    }
+    .slider{
+        width: 80%;
+        margin:  auto;
+    }
+    .gift{
+        justify-content: center;
+    }
+    .text-font{
+        font-size: 14px;
+    }
+    
+
+
+
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .backCardBanafsh{
+        height: 130px;
+    }
+    .backCardsoorati{
+        height: 130px;
+    }
+    .backCardAabi{
+        height: 130px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .backCardBanafsh{
+        height: 120px;
+    }
+    .backCardsoorati{
+        height: 120px;
+    }
+    .backCardAabi{
+        height: 120px;
+    }
+    .backCardSabz{
+        height: 90px;
+    }
+    .backCardSabzAbi{
+        height: 90px;
+    }
+    .backCardNarenji{
+        height: 90px;
+    }
+    .backCardghermez{
+        height: 90px;
+    }
+
+
+}
+@media screen and (min-width: 1200px){
+
+
+
+}
+
+
+
+
+

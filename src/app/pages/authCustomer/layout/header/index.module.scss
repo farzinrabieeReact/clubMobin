@@ -1,0 +1,239 @@
+.header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.header-content-parent {
+  height: 100%;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-log{
+  display: flex;
+  width: 230px;
+}
+.header-log-text {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+  white-space: nowrap;
+}
+.header-log-text2 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+}
+.header-step-parent{
+  width: 560px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: absolute;
+  bottom: -21.5px;
+}
+.header-step-circale{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #888888;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  color: white;
+  outline:6px solid hsla(0, 0%, 53%, 0.253);
+  font-size: 13px;
+  padding-top: 2px;
+}
+.header-step-circale-orange{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #EF6D22;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  color: white;
+  outline:8px solid hsla(22, 86%, 54%, 0.267);
+  font-size: 13px;
+}
+.header-step-circale-orange-check{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #EF6D22;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  color: white;
+  outline:8px solid hsla(22, 86%, 54%, 0.267);
+  font-size: 13px;
+}
+.header-step-line{
+  width: 40%;
+  height: 4px;
+  background-color: #888888;
+
+}
+.header-step-line-orange{
+  width: 40%;
+  height: 4px;
+  background-color: #EF6D22;
+
+}
+.header-title-step-parent{
+  width: 610px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  position: absolute;
+  bottom: -82px;
+}
+.header-title-step-text{
+ font-size: 16px;
+ color: #EF6D22;
+}
+.img{
+  width: 157px;
+  height: 57px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+  .header-content-parent {
+    width: 90%;
+  }
+  .header-step-parent{
+    width: 400px;
+    height: 43px;
+    }
+    .header-step-line{
+      width: 35%;
+    }
+    .header-step-line-orange{
+      width: 35%;  
+    }
+   
+    .header-title-step-text{
+      font-size: 14px;
+     }
+     .header-title-step-parent{
+      bottom: -65.5px;
+      font-size: 14px;
+      height: 30px;
+      width: 400px;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1400px){
+  .header-content-parent {
+    width: 65%;
+  }
+  .header-step-parent{
+    width: 450px;
+    height: 43px;
+    }
+    .header-step-line{
+      width: 35%;
+    }
+    .header-step-line-orange{
+      width: 35%;  
+    }
+   
+    .header-title-step-text{
+      font-size: 14px;
+     }
+     .header-title-step-parent{
+      bottom: -65.5px;
+      font-size: 14px;
+      height: 30px;
+      width: 450px;
+    }
+}
+@media (min-width: 567px) and (max-width: 767px) {
+  .header-title-step-parent{
+    width: 90% !important;
+  }
+}
+
+
+@media (min-width: 310px) and (max-width: 767px) {
+  .header-content-parent {
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header {
+    height: 47px;
+  }
+  .img{
+    width: 97px;
+    height: 37px;
+  }
+  .delete-icon{
+    display: none;
+  }
+  .header-log{
+    display: flex;
+    width: 150px;
+  }
+  .header-log-text2 {
+   display: none;
+  }
+  .header-log-text {
+   font-size: 12px;
+  }
+  .header-step-parent{
+  width: 90%;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: absolute;
+  bottom: -60.5px;
+  }
+  .header-step-circale{
+    width: 22px;
+    height: 22px; 
+    outline:4px solid hsla(0, 0%, 53%, 0.253);
+    font-size: 13px;
+    padding-top: 2px;
+  }
+  .header-step-circale-orange{
+    width: 32px;
+    height: 32px;
+    outline:6px solid hsla(22, 86%, 54%, 0.267);
+    font-size: 13px;
+  }
+  .header-step-circale-orange-check{
+    width: 25px;
+    height: 25px;
+    outline:6px solid hsla(22, 86%, 54%, 0.267);
+    font-size: 13px;
+  }
+  .header-step-line{
+    width: 40%;
+  
+  }
+  .header-step-line-orange{
+    width: 40%;  
+  }
+  .header-title-step-parent{
+    width: 96%;
+    height: 30px;
+    bottom: -95px;
+  }
+  .header-title-step-text{
+    font-size: 12px;
+   }
+}
+
